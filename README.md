@@ -2,6 +2,8 @@
 
 Code for replicating AI Economist results + some tweaks to explore the general setup.
 
+You need to install ai-economist acording to their [instructions](https://github.com/salesforce/ai-economist).
+
 ## Files
 
  - `run.py` starts different trials using parameters specified in a yaml file. Calling `./run.py --config <config.yml> --output <experiment name>` will create a directory called `<experiment name>` and start two phase training using Raylib and tensorflow. The structure of this was heavily inspired by [training_script.py](https://github.com/salesforce/ai-economist/blob/master/tutorials/rllib/training_script.py).
